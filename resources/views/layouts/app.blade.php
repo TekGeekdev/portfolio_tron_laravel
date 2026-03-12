@@ -14,15 +14,16 @@
             <div class="main-nav-wrapper">
                 <a id="logo">Portfolio</a>
                 <div class="navigation">
-                    <ul>
-                        <li>Acceuil</li>
-                        <li>Projets</li>
-                        <li>CV</li>
-                        <li>Contact</li>
+                    <ul class="navigation-links">
+                        <li><a href="#">Acceuil</a></li>
+                        <li><a href="#">Projets</a></li>
+                        <li><a href="#">CV</a></li>
+                        <li><a href="#">Contact</a></li>
                     </ul>
+                    <span class="language-selected">FR</span>
                     <div class="languages">
-                        <span>fr</span>
-                        <span>en</span>
+                        <a href="#">fr</a>
+                        <a href="#">en</a>
                     </div>
                 </div>
                 <label>
