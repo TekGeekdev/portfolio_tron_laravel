@@ -42,18 +42,34 @@
                 <p>Développeur full stack</p>
                 <a href="#">Mes Projets</a>
             </header>
-            <section>
+            <section class="projects">
             <h2>Mes derniers projets</h2>
-            <article>
-                <span>01</span>
-                <h3>E-commerce Platform</h3>
-                <p>Plateforme e-commerce complète avec gestion des stocks et paiements sécurisés.</p>
-                <ul>
-                    <li>laravel</li>
-                    <li>node</li>
-                    <li>Mysql</li>
-                </ul>
-            </article>
+            <div class="projects-grid">
+                <article class="card-project">
+                    <a href="#">
+                        <span class="card-project-number">01</span>
+                    <h3 class="card-project-title">E-commerce Platform</h3>
+                    <p class="card-project-description">Plateforme e-commerce complète avec gestion des stocks et paiements sécurisés.</p>
+                    <ul class="card-project-tech-tags">
+                        <li>laravel</li>
+                        <li>node</li>
+                        <li>Mysql</li>
+                    </ul>
+                    </a>
+                </article>
+                <article class="card-project">
+                    <a href="#">
+                        <span class="card-project-number">01</span>
+                    <h3 class="card-project-title">E-commerce Platform</h3>
+                    <p class="card-project-description">Plateforme e-commerce complète avec gestion des stocks et paiements sécurisés.</p>
+                    <ul class="card-project-tech-tags">
+                        <li>laravel</li>
+                        <li>node</li>
+                        <li>Mysql</li>
+                    </ul>
+                    </a>
+                </article>
+            </div>
         </section>
         <aside>
             <h2>Compétences</h2>

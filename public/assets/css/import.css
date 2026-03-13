@@ -1,8 +1,15 @@
+/* generals */
 @import url("/assets/css/base/root.css");
 @import url("/assets/css/base/general.css");
 
+/* components */
 @import url("/assets/css/components/main-nav.css");
 @import url("/assets/css/components/main.css");
+@import url("/assets/css/components/card-project.css");
 
+/* sections */
+@import url("/assets/css/sections/projects.css");
+
+/* layouts */
 @import url("/assets/css/layouts/body.css");
 @import url("/assets/css/layouts/grid-background.css");
